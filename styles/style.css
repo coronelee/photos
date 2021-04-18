@@ -585,6 +585,18 @@ html, body{
     .contentSite_portfolio_content{
         margin-top: 20px
     }
+    
+    .contentSite_contacts{
+        height: 870px;
+        width:750px;
+    }
+    .contentSite_contacts_inputs_left input{
+        width: 90%;
+    }
+    .footer{
+        width: 100%;
+    }
+    
 }
 
 @media(max-width:1000px){
@@ -627,6 +639,34 @@ html, body{
     .contentSite_portfolio_content{
         margin-top: 20px
     }
+    
+    .contentSite_contacts{
+        height: 670px;
+        width:500px;
+    }
+    .contentSite_contacts_inputs_left input{
+        width: 90%;
+    }
+    .contentSite_contacts_info_bottom_ h3{
+        display: none
+    }
+    .contentSite_contacts_inputs{
+        margin-top: -150px;
+    }
+    .contentSite_contacts_inputs_right input{
+        margin-top: 45px;
+    }
+    .contentSite_contacts_inputs_right{
+        margin-top: 38px;
+    } 
+    .submit{
+        margin-top: 15px;
+        margin-left: 90%;
+    }
+    .footer{
+        width: 100%;
+    }
+    
 }
 
 @media(max-width:600px){
@@ -692,6 +732,48 @@ html, body{
     }
     #pcF_F{margin-top: -80px;;}
     .contentSite_portfolio_header{text-align: center}
+    
+    .contentSite_contacts_info_center, .contentSite_contacts_info_bottom{
+        display: none
+    }
+    .contentSite_contacts{
+        height: 700px
+    }
+    .contentSite_contacts_info_top h1{text-align: center;margin-left: -35px;}
+        
+    .contentSite_contacts_inputs{display: block}
+    .contentSite_contacts_inputs_right{
+        margin-top: 150px;;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        
+        grid-template-areas: "name" "email" "subject"
+        
+        
+    }
+    
+    .contentSite_contacts_inputs_left input{
+         width: 100%;
+         height: 200px;
+         margin-left: 0px;
+         margin-top: -23px;
+    }
+    
+    .submit{
+        margin-top: 270px;
+        margin-left: 0;
+    }
+    
+    .footer{
+        width: 100%;
+    }
+    
+    
+    
 }
 
 
